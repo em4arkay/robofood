@@ -407,6 +407,22 @@ img{
   margin-bottom: var(--mb-3);
 }
 
+.mapouter{
+    position: relative;
+    text-align: right;
+    width: 500px;
+    height: 350px;}
+    
+.gmap_canvas{
+    overflow: hidden;
+    background: none!important;
+    width: 500px;
+    height: 350px;}
+    
+.gmap_iframe{
+    width: 500px!important;
+    height: 350px!important;}
+
 /*========== FOOTER ==========*/
 .footer__container{
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
